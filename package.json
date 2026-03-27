@@ -1,0 +1,24 @@
+{
+  "name": "dwdm-04-atividade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaowatanabe/dwdm-04-atividade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaowatanabe/dwdm-04-atividade/issues"
+  },
+  "homepage": "https://github.com/joaowatanabe/dwdm-04-atividade#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  }
+}
