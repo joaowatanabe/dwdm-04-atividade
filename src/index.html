@@ -7,10 +7,10 @@
     <title>Pure Bruch</title>
   </head>
   <body class="font-mulish bg-orange-50">
-    <header class="flex px-14 py-6.5 justify-between items-center">
-      <h1 class="text-4xl font-medium leading-14.25">Pure Bruch</h1>
+    <header class="flex px-5 py-6.5 justify-between items-center md:px-14">
+      <h1 class="text-2xl md:text-4xl font-medium leading-14.25">Pure Bruch</h1>
       <div class="flex gap-10 items-center">
-        <nav>
+        <nav class="hidden md:flex">
           <ul class="flex items-center justify-between gap-20">
             <li><a href="#">Categories</a></li>
             <li><a href="#">Benefits</a></li>
@@ -18,72 +18,116 @@
           </ul>
         </nav>
         <button class="bg-teal-900 py-3.75 px-7.5" type="button">
-          <a class="text-white tracking-wider" href="#">Shop Now</a>
+          <a class="text-white tracking-wider text-sm md:text-base" href="#"
+            >Shop Now</a
+          >
         </button>
       </div>
     </header>
 
     <main>
-      <div class="flex w-full">
-        <img class="w-1/2" src="../assets/escova01.svg" alt="product" />
-        <div class="flex flex-col justify-center w-1/2 py-30 px-28.25 gap-9 bg-stone-200">
-          <h2 class="text-4xl font-normal leading-10">Improve Oral Health</h2>
-          <p class="leading-7 text-base font-normal">
+      <div class="flex flex-col md:flex-row w-full">
+        <img
+          class="w-full md:w-1/2 object-cover"
+          src="../assets/escova01.svg"
+          alt="product"
+        />
+        <div
+          class="flex flex-col justify-center w-full md:w-1/2 py-8 px-5 md:py-30 md:px-28.25 gap-9 bg-stone-200"
+        >
+          <h2 class="text-2xl md:text-4xl font-normal leading-10">
+            Improve Oral Health
+          </h2>
+          <p class="leading-7 text-sm md:text-base font-normal">
             Maintain good oral hygiene by preventing tooth decay, and reducing
             the risk of gum disease.
           </p>
           <button class="bg-teal-900 py-3.75 px-7.5 w-fit">
-            <a class="text-white tracking-wider" href="#">Shop Now</a>
+            <a class="text-white tracking-wider text-sm" href="#">Shop Now</a>
           </button>
         </div>
       </div>
 
-      <div class="flex w-full">
-        <div class="flex flex-col justify-center w-1/2 py-30 px-28.25 gap-9 bg-stone-200">
-          <h2 class="text-4xl font-normal leading-10">Enhanced Appearance</h2>
-          <p class="leading-7 text-base font-normal">
+      <div class="flex flex-col md:flex-row w-full">
+        <div
+          class="flex flex-col justify-center w-full md:w-1/2 py-8 px-5 md:py-30 md:px-28.25 gap-9 bg-stone-200 order-2 md:order-1"
+        >
+          <h2 class="text-2xl md:text-4xl font-normal leading-10">
+            Enhanced Appearance
+          </h2>
+          <p class="leading-7 text-sm md:text-base font-normal">
             A whiter, more attractive smile can boost your confidence and leave
             a positive impression.
           </p>
           <button class="bg-teal-900 py-3.75 px-7.5 w-fit">
-            <a class="text-white tracking-wider" href="#">Shop Now</a>
+            <a class="text-white tracking-wider text-sm" href="#">Shop Now</a>
           </button>
         </div>
-        <img class="w-1/2" src="../assets/escova02.svg" alt="product" />
+        <img
+          class="w-full md:w-1/2 object-cover order-1 md:order-2"
+          src="../assets/escova02.svg"
+          alt="product"
+        />
       </div>
 
-      <section class="flex flex-col align-center px-14 py-16">
-        <div class="text-center mb-12">
-          <h2 class="text-4xl font-medium mb-4">
+      <section class="flex flex-col align-center px-5 py-8 md:px-14 md:py-16">
+        <div class="text-center mb-8 md:mb-12">
+          <h2 class="text-2xl md:text-4xl font-medium mb-3 md:mb-4">
             Be a part of the PureBrush family!
           </h2>
-          <p class="text-base leading-7">
+          <p class="text-sm md:text-base leading-7">
             Our feed is filled with inspiration to help you maintain a healthy
             and beautiful smile
           </p>
         </div>
 
-        <div class="flex flex-col justify-center align-center gap-6.75">
-          <div class="flex justify-center gap-6.75">
-            <img src="../assets/img01.svg" alt="Instagram feed" />
-            <img src="../assets/img02.svg" alt="Instagram feed" />
-            <img src="../assets/img03.svg" alt="Instagram feed" />
+        <div
+          class="flex flex-col justify-center align-center gap-3 md:gap-6.75"
+        >
+          <div class="flex justify-center gap-3 md:gap-6.75">
+            <img
+              class="w-full"
+              src="../assets/img01.svg"
+              alt="Instagram feed"
+            />
+            <img
+              class="w-full"
+              src="../assets/img02.svg"
+              alt="Instagram feed"
+            />
+            <img
+              class="w-full"
+              src="../assets/img03.svg"
+              alt="Instagram feed"
+            />
           </div>
-          <div class="flex justify-center gap-6.75">
-            <img src="../assets/img04.svg" alt="Instagram feed" />
-            <img src="../assets/img05.svg" alt="Instagram feed" />
-            <img src="../assets/img06.svg" alt="Instagram feed" />
+          <div class="flex justify-center gap-3 md:gap-6.75">
+            <img
+              class="w-full"
+              src="../assets/img04.svg"
+              alt="Instagram feed"
+            />
+            <img
+              class="w-full"
+              src="../assets/img05.svg"
+              alt="Instagram feed"
+            />
+            <img
+              class="w-full"
+              src="../assets/img06.svg"
+              alt="Instagram feed"
+            />
           </div>
         </div>
 
-        <div class="flex justify-center py-13.75">
+        <div class="flex justify-center py-8 md:py-13.75">
           <a href="#" class="flex items-center gap-3 px-6 py-3">
             <img
               src="../assets/instagram.svg"
               alt="Instagram"
-              class="w-6 h-6"
+              class="w-5 md:w-6 h-5 md:h-6"
             />
-            <span class="text-sm">Join us on Instagram</span>
+            <span class="text-xs md:text-sm">Join us on Instagram</span>
           </a>
         </div>
       </section>
